@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home ABA Bank Cambodia</title>
+    <link rel="stylesheet"  href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../ABABANK/aba.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+</head>
+<body>
+    <!-- @Create navigation bars -->
+    <div class="container-nav">
+          <div class="logo-bar"><img src="../image/aba-web-top-logo.png" alt=""></div>
+          <div class="menu-bar">
+              <ul>
+                  <li><a href="#">About ABA</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Promotions</a></li>
+                  <li><a href="#"><input type="search" name="search" id="Search-laptop" placeholder="Search"></a></li>
+              </ul>
+          </div>
+          <div class="main-lang-ibank">
+                  <div class="khmer hide"><img src="../image/khmer.svg" alt=""></div>
+                  <div class="ibank"><p class="txt-style-ibank">IBANKING</p></div>
+          </div>
+    </div>
+    <!-- @Create navigation Mobile       -->
+    <div class="container-nav-mobile">
+              <div class="logo-mobile"><img src="../image/aba-mobile-top-logo.png" alt=""></div>
+              <div class="khmer-mobile"><img src="../image/mb-khmer.svg" alt=""></div>
+              <div class="search-mobile"><span class="click-search"><i class="fas fa-search click"></i></span></div>
+              <div id="panel"><input type="text" name="search" placeholder="Search.." class="input-mb"></div>
+      </div> 
+    <!-- @Create menu and sub menu mobile -->
+    <div class="container-menu-mobile">
+                <ul>
+                  <li class="personal-mobile"><a href="#">Personal&nbsp;<i class="fas fa-caret-down"></i></a></i></li>
+                  <li class="business-mobile"><a href="#">Business&nbsp;<i class="fas fa-caret-down"></i></a></i></li>
+                  <li class="bar-mobile"><a href="#"><i class="fas fa-bars"></i></a></i></li>
+                </ul>
+     </div>
+     <!-- @Create for personal-mobile -->
+     <div id="panel-mobile">
+                <ul>
+                    <li><a href="#" style="padding-top: 0px;">Account and Deposits</a></i></li>
+                    <li><a href="#">Loans</a></i></li>
+                    <li><a href="#">Money Transfers</a></i></li>
+                    <li><a href="#">Payment Cards</a></i></li>
+                    <li><a href="#">ABA Mobile</a></i></li>
+                    <li><a href="#">Cash-in Network</a></i></li>
+                    <li><a href="#">Manulife Insurance</a></i></li>
+                    <li><a href="#">Tax Collection</a></i></li>
+               </ul>
+     </div>
+     <!-- @Create for business-mobile -->
+     <div id="panel-business-mobile">
+                <ul>
+                    <li><a href="#" style="padding-top: 0px;">Account and Deposits</a></i></li>
+                    <li><a href="#">Loans</a></i></li>
+                    <li><a href="#">Funds Transfers</a></i></li>
+                    <li><a href="#">Payment Cards</a></i></li>
+                    <li><a href="#">Payment Collection Service</a></i></li>
+                    <li><a href="#">Trade Finance</a></i></li>
+                    <li><a href="#">Payroll Service</a></i></li>
+                    <li><a href="#">Pay Way</a></i></li>
+                    <li><a href="#">IBANKING For Business (IBB)</a></i></li>
+                    <li><a href="#">Tax Collection</a></i></li>
+               </ul>
+     </div>
+     <!-- @Create for bar-mobile -->
+     <div id="panel-bar-mobile">
+                <ul>
+                    <li><a href="#" style="padding-top: 0px;">ABA Mobile</a></i></li>
+                    <li><a href="#">Self-Banking</a></i></li>
+                    <li><a href="#">Support</a></i></li>
+               </ul>
+     </div>
+    <!-- @Create carousel -->
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="../image/swiper1.png" alt=""></div>
+              <div class="swiper-slide"><img src="../image/swiper2.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="../image/swiper3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="../image/swiper4.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="../image/swiper5.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- Swiper JS -->
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              cssMode: true,
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+              pagination: {
+                el: ".swiper-pagination",
+              },
+              mousewheel: true,
+              keyboard: true,
+              // @autoplay
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 7000,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
+    <!-- @Create menu and sub menu laptop -->
+    <div class="main-menu-laptop hide">
+         <ul>
+           <li class="personal"><a href="#">Personal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a>
+                <ul>
+                  <li><a href="#"><img src="../image/Accounts___Deposits__blue.png" class="blue"><img src="../image/Accounts___Deposits__red.png" class="red"><h4>Account and Deposit</h4><p>Daily banking account and term deposits</p></a></li>
+                  <li><a href="#"><img src="../image/Loans__blue.png" class="blue"><img src="../image/Loans__red.png" class="red"><h4>Loans</h4><p>Loans for the confort of your business</p></a></li>
+                  <li><a href="#"><img src="../image/Funds_Transfers__blue.png" class="blue"><img src="../image/Funds_Transfers__red.png" class="red"><h4>Money Transfer</h4><p>ways to transfer funds in Cambodia and overseas</p></a></li>
+                  <li><a href="#"><img src="../image/Payment_Cards__blue.png" class="blue"><img src="../image/Payment_Cards__red.png" class="red"><h4>Payment Cards</h4><p>Debit card, credit cards and even more!</p></a></li>
+                  <li><a href="#"><img src="../image/ABA_Mobile__blue.png" class="blue"><img src="../image/ABA_Mobile__red.png" class="red"><h4>ABA Mobile</h4><p>Bank anything wherever you go with ABA Mobile</p></a></li>
+                  <li><a href="#"><img src="../image/Cash-in_Service__blue.png" class="blue"><img src="../image/Cash-in_Service__red.png" class="red"><h4>Cash-in Networks</h4><p>Deposit cash to ABA account 24/7</p></a></li>
+                  <li><a href="#"><img src="../image/Life_Insurance__blue.png" class="blue"><img src="../image/Life_Insurance__red.png" class="red"><h4>Manulife Insurance</h4><p>Access life insurance products at ABA branches</p></a></li>
+                  <li><a href="#"><img src="../image/csm_tax__blue.png"class="blue"><img src="../image/csm_tax__red.png" class="red"><h4>Tax Collection</h4><p>Fulfill your tax paying duties</p></a></li>
+                </ul>
+          </li>
+           <li class="business"><a href="#">Business &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a>
+                <ul>
+                  <li><a href="#"><img src="../image/Accounts___Deposits__blue.png" class="blue"><img src="../image/Accounts___Deposits__red.png" class="red"><h4>Account and Deposit</h4><p>Daily banking account and term deposits</p></a></li>
+                  <li><a href="#"><img src="../image/Loans__blue.png" class="blue"><img src="../image/Loans__red.png" class="red"><h4>Loans</h4><p>Loans for the confort of your business</p></a></li>
+                  <li><a href="#"><img src="../image/Funds_Transfers__blue.png" class="blue"><img src="../image/Funds_Transfers__red.png" class="red"><h4>Money Transfer</h4><p>ways to transfer funds in Cambodia and overseas</p></a></li>
+                  <li><a href="#"><img src="../image/Payment_Cards__blue.png" class="blue"><img src="../image/Payment_Cards__red.png" class="red"><h4>Payment Cards</h4><p>Debit card, credit cards and even more!</p></a></li>
+                  <li><a href="#"><img src="../image/clock__blue.png" class="blue"><img src="../image/clock__red.png" class="red"><h4>Payment Collection Sevice</h4><p>Cahless optoion for business of any size</p></a></li>
+                  <li><a href="#"><img src="../image/Trade_Finance__blue.png" class="blue"><img src="../image/Trade_Finance__red.png" class="red"><h4>Trade Finance</h4><p>Bank Guarantees, Letters o credit, ImEx Financing</p></a></li>
+                  <li><a href="#"><img src="../image/Payroll_Service__blue.png" class="blue"><img src="../image/Payroll_Service__red.png" class="red"><h4>Payroll Service</h4><p>Pay your employees in a securce and convenient way</p></a></li>
+                  <li><a href="#"><img src="../image/PayWay__blue.png" class="blue"><img src="../image/PayWay__red.png" class="red"><h4>PayWay</h4><p>Boost your online sales with our payment plaform!</p></a></li>
+                  <li><a href="#"><img src="../image/iBanking_for_Business__blue.png" class="blue"><img src="../image/iBanking_for_Business__red.png" class="red"><h4>Ibanking for Business (IBB)</h4><p>A better way to manage your company's finances</p></a></li>
+                  <li><a href="#"><img src="../image/csm_tax__blue.png"class="blue"><img src="../image/csm_tax__red.png" class="red"><h4>Tax Collection</h4><p>Fulfill your tax paying duties</p></a></li>
+                </ul>   
+          </li>
+           <li class="aba-mobile"><a href="#">ABA Mobile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a>
+                  <ul>
+                    <li><a href="#"><img src="../image/ABA_Mobile__blue.png" class="blue"><img src="../image/ABA_Mobile__red.png" class="red"><h4>Overview</h4><p>Bank anytime wherever you go with ABA Mobile!</p></a></li>
+                    <li><a href="#"><img src="../image/Instant_Account__blue.png" class="blue"><img src="../image/Instant_Account__red.png" class="red"><h4>Instant Account</h4><p>Open your first bank account instantly on the smartphone</p></a></li>
+                    <li><a href="#"><img src="../image/aba_id_blue.png" class="blue"><img src="../image/aba_id_red.png" class="red"><h4>ABA ID</h4><p>Receive money easier via unique QR code and link</p></a></li>
+                    <li><a href="#"><img src="../image/ABA_Pay__blue.png" class="blue"><img src="../image/ABA_Pay__red.png" class="red"><h4>ABA PAY</h4><p>Go cashless by simply tap, scan and pay!</p></a></li>
+                    <li><a href="#"><img src="../image/Account__blue.png"class="blue"><img src="../image/Account__red.png" class="red"><h4>Mobile Accounts</h4><p>Choose the account that suits your banking needs</p></a></li>
+                    <li><a href="#"><img src="../image/Bill_payment__blue.png" class="blue"><img src="../image/Bill_payment__red.png" class="red"><h4>Bill Payments</h4><p>Settle your monthly bills or phone top-ups, free of charge</p></a></li>
+                    <li><a href="#"><img src="../image/Card__blue.png" class="blue"><img src="../image/Card__red.png" class="red"><h4>Cards</h4><p>Issue or order bank cards without visiting any branch</p></a></li>
+                    <li><a href="#"><img src="../image/E-Cash__blue.png" class="blue"><img src="../image/E-Cash__red.png" class="red"><h4>E-cash</h4><p>Send money to ATM and enjoy cardless withdrawal</p></a></li>
+                    <li><a href="#"><img src="../image/Trade_Finance__blue.png" class="blue"><img src="../image/Trade_Finance__red.png" class="red"><h4>Transfers</h4><p>Make local and international fund transfers remotely</p></a></li>
+                    <li><a href="#"><img src="../image/Instant_Loan__blue.png" class="blue"><img src="../image/Instant_Loan__red.png" class="red"><h4>Instant Loan against Fixed Deposit</h4><p>Get emergency cash without losing accurued interest</p></a></li>
+                  </ul>   
+          </li>
+           <li class="self-banking"><a href="#">Self-Banking &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a>
+                  <ul>
+                    <li><a href="#"><img src="../image/24_7__blue.png" class="blue"><img src="../image/24_7__red.png" class="red"><h4>ABA 24/7</h4><p>Do your banking wherever you want</p></a></li>
+                    <li><a href="#"><img src="../image/ATM_Network__blue.png" class="blue"><img src="../image/ATM_Network__red.png" class="red"><h4>ATM Network</h4><p>Get easy and secure access to your funds</p></a></li>
+                    <li><a href="#"><img src="../image/card-machine__blue.png" class="blue"><img src="../image/card-machine__red.png" class="red"><h4>Card Machine</h4><p>Get local or international plastic card in two minutes</p></a></li>
+                    <li><a href="#"><img src="../image/Cash-in_Service__blue.png" class="blue"><img src="../image/Cash-in_Service__red.png" class="red"><h4>Cash-in-Service</h4><p>Deposit cash to ABA account 24/7</p></a></li>
+                  </ul>   
+          </li>
+           <li class="support"><a href="#">Support &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a>
+                  <ul>
+                    <li><a href="#"><img src="../image/clock__blue.png" class="blue"><img src="../image/clock__red.png" class="red"><h4>Business Hours</h4><p>We offer standard and extended working hours</p></a></li>
+                    <li><a href="#"><img src="../image/Feedback_form__blue.png" class="blue"><img src="../image/Feedback_form__red.png" class="red"><h4>Feedback Form</h4><p>We value your opinion. Share it with us!</p></a></li>
+                    <li><a href="#"><img src="../image/ABA_Locator__blue.png" class="blue"><img src="../image/ABA_Locator__red.png" class="red"><h4>ABA Locator</h4><p>See our nearest branchs, ATMs and Cash-In kiosks</p></a></li>
+                    <li><a href="#"><img src="../image/Contact_Us__blue.png" class="blue"><img src="../image/Contact_Us__red.png" class="red"><h4>Contact Us</h4><p>We value feedback</p></a></li>
+                    <li><a href="#"><img src="../image/ab_free_wifi__blue.png" class="blue"><img src="../image/ab_free_wifi__red.png" class="red"><h4>Free Wifi</h4><p>Access a better banking experience</p></a></li>
+                    <li><a href="#"><img src="../image/ABA_Complaint__blue.png" class="blue"><img src="../image/ABA_Complaint__red.png" class="red"><h4>Complaint Resolution</h4><p>Committed to resolve Complaints fairly and quickly</p></a></li>
+                  </ul>   
+          </li>
+         </ul>
+    </div>
+    <!-- @Create News ABA -->
+    <div class="container-news">
+         <div class="item-news"><div class="news-title-special"><h2>Latest News</h2></div><div class="news-img">
+          <div class="swiper mySwiper" style="width: 100%; height: 100%;">
+            <div class="swiper-wrapper" style="overflow: unset !important;">
+              <div class="swiper-slide"> <div class="black-hover"><p style="padding-bottom: 36px;">Stay protected from scammers! <i class="fas fa-caret-down"></i></p>
+                <p style="font-size: 15px;">We keep reminding you to be extra vigilant with any messages or calls you receive pretending to...</p></div> <img src="../image/aba-slide-5.jpg" alt=""></div>
+              <div class="swiper-slide"> <div class="black-hover"><p>Issue your plastic card instanntly with ABA... <i class="fas fa-caret-down"></i></p>
+                <p style="font-size: 15px;">ABA Bank proudly presents a new self-service banking facility, ABA card Machine, as..</p></div> <img src="../image/aba-slide1.jpg" alt=""></div>
+              <div class="swiper-slide"> <div class="black-hover"><p>Mondulkiri residents can now settle EDC... <i class="fas fa-caret-down"></i></p>
+                <p style="font-size: 15px;">Now, the residents of the Mondulkiri province, including kaev Seima, Kaoh Nheaek, and...</p></div> <img src="../image/aba-slide-2.jpg" alt=""></div>
+              <div class="swiper-slide"> <div class="black-hover"><p>ABA contributes to khmer Enterprice's... <i class="fas fa-caret-down"></i></p>
+                <p style="font-size: 15px;">ABA Bank becomes a sponsor of the Khmer Enterprice Investment Readiness program...</p></div> <img src="../image/aba-slide-3.jpg" alt=""></div>
+              <div class="swiper-slide"> <div class="black-hover"><p>ABA​ introduces card-to-card transfers with... <i class="fas fa-caret-down"></i></p>
+                <p style="font-size: 15px;">ABA Bank cooperates with global payment service Mastercard and UnionPay International...</p></div> <img src="../image/aba-slide-4.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next" style="font-size: 0px !important; width: 450px;"></div>
+            <div class="swiper-button-prev" style="font-size: 0px !important; width: 450px;"></div>
+            <div class="swiper-pagination" style="display: none;"></div>
+          </div>
+        
+ <!-- Swiper JS -->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".mySwiper", {
+     cssMode: true,
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+     pagination: {
+       el: ".swiper-pagination",
+     },
+     mousewheel: true,
+     keyboard: true,
+     // @autoplay
+     spaceBetween: 30,
+     centeredSlides: true,
+     autoplay: {
+       delay: 7000,
+       disableOnInteraction: false,
+     },
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+   });
+ </script>
+         </div></div>
+         <div class="item-news hide-iphone"><div class="news-title"><h2>New Feature</h2></div><div class="news-img"> <div class="black-hover"><p>ABA​ ID​ for​ easier​ and​ hassle-free​ transfers <i class="fas fa-caret-down"></i></p>
+         <p style="font-size: 15px;">ABA Mobile users can enjoy even easier money transfers using unique QR and link!</p></div> <img src="../image/aba-new-feature.jpg" alt=""></div></div>
+         <div class="item-news hide-iphone"><div class="news-title"><h2>Exchange Rates</h2></div><div class="news-img"> <div class="black-hover"><p>Check​ out​ our​ foreign​ exchange​ rates <i class="fas fa-caret-down"></i></p>
+          <p style="font-size: 15px;">This section informs you on our latest foreign currency exchange rates</p></div> <img src="../image/exchange-rates.jpg" alt=""></div></div>
+    </div>
+    <!-- @Create information Mobile -->
+    <div class="info-mobile">
+         <ul>
+           <li><a href="">About ABA</a></li>
+           <li><a href="">Carrers</a></li>
+           <li><a href="">News</a></li>
+           <li><a href="">Promotions</a></li>
+         </ul>
+    </div>
+    <!-- @Social Media -->
+    <div class="social-media">
+      <p>Follow us:</p>
+      <div class="item-media"><img src="../image/facebook.svg" alt=""></div>
+      <div class="item-media"><img src="../image/linkedin.svg" alt=""></div>
+      <div class="item-media"><img src="../image/instagram.svg" alt=""></div>
+      <div class="item-media"><img src="../image/youtube.svg" alt=""></div>
+    </div>
+    <!-- @Create footer-ABA -->
+    <footer>
+       <div class="footer-bar">
+             <div class="logo-footer hide-iphone"><img src="../image/logo-footer-aba.png" alt=""></div>
+             <div class="nav">
+               <ul>
+                 <li><a href="#">Disclaimer</a></li>
+                 <li><a href="#">Terms of Use</a></li>
+                 <li><a href="#" style="border: none;">Cookies</a></li>
+               </ul>
+               <br>
+               <br>
+               <p class="copyright">SWIFT: ABAAKHPP | General banking licence Nº B 14 dated 25 January 2021</p>
+               <p class="copyright">©2022 Advanced Bank of Asia Ltd. (ABA Bank)</p>
+               <p class="copyright">148 Preah Sihanouk Blvd, Sangkat Boeung Keng Kang I, Khan Boeung Keng Kang, Phnom Penh, Cambodia</p>
+             </div>
+       </div>
+    </footer>
+    <!-- @Create Chat aba -->
+    <div class="chat-aba hide">
+        <img src="../image/chat-aba.svg" alt="">
+    </div>
+</body>
+          <script> 
+            $(document).ready(function(){
+            $(".search-mobile").click(function(){
+            $("#panel").slideToggle("fast");
+           });
+           $(".personal-mobile").click(function(){
+               $("#panel-mobile").slideToggle("medium");
+           });
+           $(".business-mobile").click(function(){
+               $("#panel-business-mobile").slideToggle("medium");
+           });
+           $(".bar-mobile").click(function(){
+               $("#panel-bar-mobile").slideToggle("medium");
+           });
+         });
+         </script>
+</html>
